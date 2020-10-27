@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper" id="wrap">
+        <img src="img/a1.png" >
+        <img src="img/a2.png" >
+        <img src="img/a3.png" >
+        <img src="img/a4.png" >
+        <img src="img/a5.png" >
+    </div>
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+    <script>
+        $('#wrap').slider({
+            durDisplay: 0,
+            autoPlay: true,
+            interval: 2000
+        })
+    </script>
+</body>
+</html>
